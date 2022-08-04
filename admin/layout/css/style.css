@@ -1,0 +1,376 @@
+
+/* Start main Rolze */
+body {
+    background-color: #eaeaea;
+}
+.asterisk {
+    font-size: 30px;
+    position: absolute;
+    right: 31px;
+    top: 9px;
+    color: #d11d1d;
+}
+
+.nice-message{
+    padding: 10px;
+    background-color: #EEE;
+    margin: 10px 0;
+    border-left: 6px solid #080
+}
+
+/* End main Rolze */
+
+/* start login form */
+.login {
+    width: 300px;
+    margin: 100px auto;
+}
+.login h4 {
+    color: #888;
+}
+.login input {
+    margin-bottom: 10px;
+}
+.login .form-control {
+    background-color: #EAEAEA;
+}
+.login .btn {
+    background-color: #008dde;
+}
+/* End Login Form */
+
+/* Start Bootstrap Edits */ 
+.navbar{
+    border-radius: 0;
+    margin-bottom: 0;
+}
+.nav >li >a, .navbar-brand{
+    padding: 15px 12px;
+}
+.navbar-brand{
+    font-size: 1em;
+}
+.navbar-inverse .navbar-nav> .open>a,
+.navbar-inverse .navbar-nav> .open>a:focus,
+.navbar-inverse .navbar-nav> .open>a :hover,
+.dropdown-menu{
+    background-color: #0984e3;
+}
+.dropdown-menu{
+    min-width:180px;
+    padding: 0;
+    font-size: 1em;
+    border: none;
+    border-radius: none
+}
+.dropdown-menu >li >a{
+    color:#fff;
+    padding:10px 15px;
+}
+.dropdown-menu >li >a:focus,
+.dropdown-menu >li >a:hover{
+    color:#fff;
+    background-color:#5f27cd;
+}
+
+.form-control {
+    position: relative;
+}
+
+/* End Bootstrap Edits */ 
+
+/* Start Dashboard Page */
+
+.home-stats .stat{
+    padding: 20px;
+    font-size: 15px;
+    color: 10px;
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden
+}
+
+.home-stats .stat i{
+    font-size: 80px;
+    top: 10px;
+    color: #FFF
+}
+
+.home-stats .stat .info{
+    float: right;
+}
+
+.home-stats .stat a{
+    color: #FFF;
+}
+.home-stats .stat a:hover{
+    text-decoration: none
+}
+
+.home-stats .stat span{
+    display: block;
+    font-size: 60px;
+}
+ 
+.home-stats .st-Members{
+    background-color: #0abde3;
+}
+.home-stats .st-Pending{
+    background-color: #ee5253;
+}
+.home-stats .st-Item{
+    background-color: #5f27cd;
+}
+.home-stats .st-comment{
+    background-color: #ff9f43;
+}
+
+.latest{
+    padding: 20px;
+}
+
+.latest .toggle-info{
+    color: #999;
+    cursor: pointer
+}
+
+.latest .toggle-info :hover{
+    color: #444;
+}
+
+.latest-users{
+    margin-bottom: 0;
+}
+
+.latest-users li{
+    padding: 5px;
+    overflow: hidden;
+}
+
+.latest-users li:nth-child(odd){
+    background-color: #eee;
+}
+
+.latest-users .btn-success,
+.latest-users .btn-info{
+    padding: 3px 8px;
+}
+
+.latest-users .btn-info{
+    margin-right: 5px;
+}
+
+.latest .comment-box{
+    padding: 5px 0 10px
+}
+
+.latest .comment-box .member-n,
+.latest .comment-box .member-c{
+    float: left;
+}
+
+.latest .comment-box .member-n{
+    width: 80px;
+    text-align: center;
+    margin-right: 20px;
+    background-color: #EEE;
+    color: #FFF;
+    border-radius: 10px;
+    font-size: 18px;
+    position: relative;
+    top: 9px
+}
+
+.latest .comment-box .member-c{
+    width: calc(100% - 100px);
+    padding: 10px;
+    background-color: #EEE;
+    color: #000;
+    border-radius: 10px;
+    font-size: 18px;
+    position: relative;
+}
+
+.latest .comment-box .member-c::before{
+    content: "";
+    display: block;
+    position: absolute;
+    left: -28px;
+    top: 5px;
+    width: 0;
+    height: 0;
+    border-style: solid; 
+    border-color: transparent #EEE transparent transparent;
+    border-width: 15px
+}
+
+/* End Dashboard Page */
+
+/* Start Members Page */
+
+h1{
+    font-size: 55px;
+    margin: 40px 0;
+    font-weight: bold;
+    color: #666
+}
+
+.far {
+    position: absolute;
+    right: -30px;
+    top: 6px;
+}
+
+.manage-members img{
+    width: 50px;
+    height: 50px;
+    border-radius: 20px;
+}
+
+.main-table{
+    box-shadow: 0 3px 10px #ccc
+}
+.main-table td{
+    background-color:#fff;
+    vertical-align:middle !important
+}
+
+.main-table tr:first-child td {
+    background-color:#333;
+    color:#fff
+}
+.main-table .btn{
+    padding: 3px 10px
+}
+
+.fas, .fa{
+    position: relative;
+    right: 3px
+}
+
+.activate{
+    margin-left: 5px;
+}
+/* End Members Page */
+
+/* Start Categories page */
+.categories .panel-heading{
+    color: #959595;
+    font-weight: bold
+}
+
+.categories .panel-body{
+    padding: 15px;
+}
+
+.categories .option a {
+    color: #888;
+    text-decoration: none;
+}
+
+.categories .option span{
+    color: #888;
+    cursor: pointer
+}
+
+.categories .option .active {
+    color: #F00;
+    font-weight: bold
+}
+
+.categories hr{
+    margin-bottom: 15px;
+    border: 1px solid #888;
+}
+
+.panel-body .cat{
+    position: relative;
+    overflow: hidden
+}
+
+.categories .panel-heading i{
+    color: rgb(44, 59, 201)
+}
+
+.categories .cat:hover {
+    background-color: #FFF
+}
+
+.categories .cat:hover .hidden-buttons {
+    right: 10px
+}
+
+.categories .cat h3 {
+    margin: 0;
+    cursor: pointer;
+    font-weight: bold;
+    color: #6A6A6a
+}
+
+.categories .cat .full-view p{
+    margin: 10px 0;
+
+}
+
+.categories .cat:last-of-type ~ hr {
+    display: none;
+}
+
+.categories .cat .hidden-buttons {
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+    position: absolute;
+    top: 10px;
+    right: -120px
+}
+
+.categories .cat .hidden-buttons a {
+    margin-right: 5px;
+}
+
+.categories .cat .visibility{
+    background-color: #00b894;
+    color: #FFF;
+    padding: 5px 10px;
+    margin-right: 10px;
+    border-radius: 8px;
+}
+
+.categories .cat .commenting{
+    background-color: #d63031;
+    color: #FFF;
+    padding: 5px 10px;
+    margin-right: 10px;
+    border-radius: 8px;
+}
+
+.categories .cat .adverties{
+    background-color: #0984e3;
+    color: #FFF;
+    padding: 5px 10px;
+    margin-right: 10px;
+    border-radius: 8px;
+}
+
+.categories .chiled-hed{
+    margin: 0 0 0 15px;
+    font-weight: bold;
+    color: #5f27cd;
+}
+
+.categories .chiled-cats{
+    margin: 5px 5px 10px 20px;
+    
+}
+
+.categories .chiled-cats li::before{
+    content: "- ";
+}
+
+.categories .show-delete{
+    color: #F00;
+    display: none;
+}
+
+/* End Categories page */
